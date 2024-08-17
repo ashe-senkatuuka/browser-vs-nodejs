@@ -12,7 +12,7 @@ console.log('Hello World');
  * The window object does not exist in Node.js. Node.js runs in a server environment, not a browser,
  * so there's no concept of a browser window.
  */
-console.log(window);
+// console.log(window);
 
 
 /**
@@ -22,7 +22,7 @@ console.log(window);
  * The DOM/document is also not available in NodeJS. The DOM partains
  * to the browser and its environment.
  */
-console.log(document); 
+// console.log(document); 
 
 
 /**
@@ -31,7 +31,7 @@ console.log(document);
  * setInterval which are available in the browser but are not part of JavaScript. 
  * It is the top level object in NodeJS
  */
-console.log(global); 
+// console.log(global); 
 
 
 /**
@@ -39,7 +39,7 @@ console.log(global);
  * and control over the current NodeJs process. It's one of the most important objects in the
  * NodeJs environment.
  */
-console.log(process);
+// console.log(process);
 
 /**
  * In coclusion
